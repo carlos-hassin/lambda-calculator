@@ -1,9 +1,9 @@
 import React from "react";
-import "../../App.css"
+import "../../App.css";
 
 const Display = (props) => {
 
-	return <div className="display-container">{props.result}</div>;
+	return <div className="display">{props.result}</div>;
 };
 
 export default Display;
